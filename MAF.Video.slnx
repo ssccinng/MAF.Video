@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/GetStarted/">
+    <Project Path="FirstDemo/FirstDemo.csproj" />
+  </Folder>
+  <Folder Name="/GetStarted/Agents/">
+    <Project Path="Anthropic.AIAgent/Anthropic.AIAgent.csproj" />
+    <Project Path="AzureOpenAI.AIAgent/AzureOpenAI.AIAgent.csproj" />
+    <Project Path="GithubCopilot.AIAgent/GithubCopilot.AIAgent.csproj" />
+    <Project Path="OpenAI.AIAgent/OpenAI.AIAgent.csproj" />
+  </Folder>
+  <Project Path="MAF.Video/MAF.Video.csproj" />
+</Solution>
