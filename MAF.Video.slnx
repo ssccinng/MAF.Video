@@ -4,9 +4,13 @@
     <Project Path="MAF.Library/MAF.Library.csproj" Id="45a93424-9869-4f86-837d-2cd3ecc3df8c" />
   </Folder>
   <Folder Name="/GetStarted/2. AgentWithTools/">
+    <Project Path="Agent.MCPServer/Agent.MCPServer.csproj" Id="7d3da296-a638-46d4-9256-39d4e6e24447" />
     <Project Path="AgentCode/AgentCode.csproj" Id="df9593bb-19fb-457d-828c-072d32883dcf" />
     <Project Path="AgentMcp/AgentMcp.csproj" Id="888936bc-86f4-401e-95a6-d28303ac2cac" />
     <Project Path="AgentTool/AgentTool.csproj" Id="6b435236-50ff-4372-8413-24c36ce007df" />
+    <Project Path="McpServerLocal/McpServerLocal.csproj" Id="675412c9-7fc1-40f0-90b7-a93bada1548d" />
+    <Project Path="McpServerRemote/McpServerRemote.csproj" Id="826668d1-4c8a-4cab-8384-dc8ee9188d54" />
+    <Project Path="ToolWithSession/ToolWithSession.csproj" Id="68c16ae5-275c-4962-b500-104ab4d969aa" />
   </Folder>
   <Folder Name="/GetStarted/Agents/">
     <Project Path="Anthropic.AIAgent/Anthropic.AIAgent.csproj" />
