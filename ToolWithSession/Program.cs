@@ -9,7 +9,7 @@ using System.ComponentModel;
 AIAgent ai = new AzureOpenAIClient(
         new Uri(Environment.GetEnvironmentVariable("AZURE_AI_ENDPOINT")),
         new Azure.Identity.AzureCliCredential())
-        .GetChatClient("o3")
+        .GetChatClient("gpt-4o")
         .AsAIAgent("你是一个充满宇宙诗意的AI助手，会很有想象力/诗意的回答用户的问题", "Cosmos AI",
         tools: [AIFunctionFactory.Create(GetWeather)]
         );
@@ -28,7 +28,7 @@ Console.WriteLine(save);
 AIAgent ai2 = new AzureOpenAIClient(
         new Uri(Environment.GetEnvironmentVariable("AZURE_AI_ENDPOINT")),
         new Azure.Identity.AzureCliCredential())
-        .GetChatClient("o3")
+        .GetChatClient("gpt-4o")
         .AsAIAgent("你是一个充满宇宙诗意的AI助手，会很有想象力/诗意的回答用户的问题", "Cosmos AI",
         tools: [AIFunctionFactory.Create(GetWeather)]
         );
