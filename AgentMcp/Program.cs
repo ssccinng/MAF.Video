@@ -28,6 +28,11 @@ await using var mcpClientCsHttp = await McpClient.CreateAsync(new HttpClientTran
 Console.WriteLine(string.Join(",", (await mcpClientCsHttp.ListToolsAsync()).Select(s => s.Name)));
 var tools = await mcpClientCsHttp.ListToolsAsync();
 
+var aa = new AzureOpenAIClient(
+        new Uri(Environment.GetEnvironmentVariable("AZURE_AI_ENDPOINT")),
+        new Azure.Identity.AzureCliCredential());
+
+
 var ai = new AzureOpenAIClient(
         new Uri(Environment.GetEnvironmentVariable("AZURE_AI_ENDPOINT")),
         new Azure.Identity.AzureCliCredential())

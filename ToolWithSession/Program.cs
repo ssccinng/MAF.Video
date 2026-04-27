@@ -18,7 +18,7 @@ AIAgent ai = new AzureOpenAIClient(
 
 var session = await ai.CreateSessionAsync();
 
-Console.WriteLine(await ai.RunAsync("杭州的天气，如何？", session));
+Console.WriteLine(await ai.RunAsync("你好？", session));
 
 
 var save = await ai.SerializeSessionAsync(session);
