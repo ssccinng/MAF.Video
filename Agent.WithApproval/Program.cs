@@ -30,7 +30,7 @@ AIAgent agent = new AzureOpenAIClient(
     new Uri(endpoint),
     new DefaultAzureCredential())
     .GetChatClient(deploymentName)
-    .AsAIAgent(instructions: "You are a helpful assistant", tools: [new ApprovalRequiredAIFunction(AIFunctionFactory.Create(GetWeather))]);
+    .AsAIAgent(instructions: "You are a helpful assistant", tools: [new ApprovalRequiredAIFunction(AIFunctionFactory.Create(GetWeather, "getweather"))]);
 
 // Call the agent and check if there are any function approval requests to handle.
 // For simplicity, we are assuming here that only function approvals are pending.

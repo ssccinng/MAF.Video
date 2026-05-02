@@ -5,6 +5,7 @@
   </Folder>
   <Folder Name="/GetStarted/2. AgentWithTools/">
     <Project Path="Agent.MCPServer/Agent.MCPServer.csproj" Id="7d3da296-a638-46d4-9256-39d4e6e24447" />
+    <Project Path="Agent.WithApproval.Video/Agent.WithApproval.Video.csproj" Id="b71ff42b-ea81-4b21-ad0b-90840343824d" />
     <Project Path="Agent.WithApproval/Agent.WithApproval.csproj" Id="f760cb88-0ab8-48b1-a6ca-f46c506ff8fa" />
     <Project Path="AgentCode/AgentCode.csproj" Id="df9593bb-19fb-457d-828c-072d32883dcf" />
     <Project Path="AgentMcp/AgentMcp.csproj" Id="888936bc-86f4-401e-95a6-d28303ac2cac" />
@@ -23,6 +24,9 @@
     <Project Path="MAF.RAG.Vector.Video/MAF.RAG.Vector.Video.csproj" Id="efc95412-894a-4699-a0d0-a4ac0e615d47" />
     <Project Path="MAF.RAG.Vector/MAF.RAG.Vector.csproj" Id="ca47fd83-1962-4220-a52a-c6a575d8d66a" />
     <Project Path="MAF.RAG/MAF.RAG.csproj" Id="d8f76f58-db2f-4182-8ee7-1b56f1a5d1ba" />
+  </Folder>
+  <Folder Name="/GetStarted/Skill/">
+    <Project Path="MAF.Skill/MAF.Skill.csproj" Id="8f05db05-4dd8-4a53-adb9-55618415d688" />
   </Folder>
   <Project Path="MAF.Video/MAF.Video.csproj" />
 </Solution>
